@@ -42,3 +42,13 @@ print(x + y + z)
 a = 230
 b = 320
 print(a + b)
+
+# Without walrus operator
+n = 10
+if n > 5:
+    print(n)
+
+# With walrus operator
+if (n := 1) > 5:
+    print(n)  # Output: 10
+
