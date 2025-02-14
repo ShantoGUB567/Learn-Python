@@ -19,3 +19,9 @@ print("Second highest number is: ", secondHighest)
 
 # Input: [{({}])}
 # Output: Not balanced
+
+input_str = input("Input Parentheses: ")
+# revers string and store different variable
+
+print(input_str)
+# print(s)

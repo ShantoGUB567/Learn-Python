@@ -17,10 +17,14 @@
 #     for i in n:
 #         print(i)
 
-i= 1
-while i<=5:
-    i += 1
-    if i == 3:
-        continue
-    print(i)
+# i= 1
+# while i<=5:
+#     i += 1
+#     if i == 3:
+#         continue
+#     print(i)
 
+import pyttsx3
+engine = pyttsx3.init()
+engine.say("suma, tor nanir heda")
+engine.runAndWait()
