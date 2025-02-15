@@ -9,10 +9,14 @@
 # number = complex(real_p, img_p)        # complex number er 2 ta part alada kore input nite hoy
 # print(number)
 
-# 2. String
-name = input("Enter your name: ")
-print(name)
+# # 2. String
+# name = input("Enter your name: ")
+# print(name)
 
-# 3. Sequence 
-fnd = input("Enter your friends name: ").split(" ") # split() function use kore string er 1ta word er sathe split kor
-print(fnd)
+# # 3. Sequence 
+# fnd = input("Enter your friends name: ").split(" ") # split() function use kore string er 1ta word er sathe split kor
+# print(fnd)
+
+text = "I love Suma."
+print(text.replace("Python", "Java"))
+print(text)
