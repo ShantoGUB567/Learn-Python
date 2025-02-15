@@ -13,3 +13,6 @@
 name = input("Enter your name: ")
 print(name)
 
+# 3. Sequence 
+fnd = input("Enter your friends name: ").split(" ") # split() function use kore string er 1ta word er sathe split kor
+print(fnd)
