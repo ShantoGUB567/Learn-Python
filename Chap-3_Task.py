@@ -15,10 +15,7 @@ you are selected !
 
 # 3. Write a program to detect double space in a sting.
 input = input("Input a string: ")
-if "  " in input:
-    print("Double space found")
-else: 
-    print("No double space found")
+print(input.find("  "))
 
 # 4. Replace the double space from problem 3 with single space.
 print(input.replace("  ", " "))
