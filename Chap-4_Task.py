@@ -9,10 +9,10 @@ print(fruits)
 # 2. Write a program to accept marks of 6 students and display them in a sorted manner. 
 Marks = []
 for i in range(6):
-    mark = input("Enter mark: ")
+    mark = int(input("Enter mark: "))
     Marks.append(mark)
-
-print(Marks)
+Marks.sort()
+print("Marks: ", Marks)
 
 # 3. Check that a type cannot be changed in python. 
 a = 10
