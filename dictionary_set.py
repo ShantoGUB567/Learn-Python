@@ -8,3 +8,5 @@ my_dict = {
 print (my_dict["name"])
 print (my_dict[12])
 print(my_dict)
+
+print(my_dict.get("city"))
